@@ -29,11 +29,16 @@ main,aside{
   flex-wrap: wrap;
   justify-content: space-between;
   flex-grow: 4;
+  
 }
 main > div ,aside > div{
   width: 22%;
   background: gray;
   margin: 2vw;
+  min-height: 70vh;
+}
+footer{
+  width: 10%;
 }
 
 @media (min-width: 600px) {
@@ -48,5 +53,8 @@ main > div ,aside > div{
   }
   main > div, aside > div{
     height: 10em;
+  }
+  footer{
+    height: 20%;
   }
 }
